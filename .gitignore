@@ -1,0 +1,15 @@
+# Ignore all dirs/files except those under src/ by default
+/*
+!/src
+*/*
+!src/*
+
+# Exclude gitignore
+!.gitignore
+
+# Exclude LICENSE
+!LICENSE
+
+# Exclude Android files
+!build.gradle
+!proguard-rules.pro
